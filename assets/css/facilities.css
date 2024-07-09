@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.image{
+    margin-top: -100px;
+    box-shadow: 0 4px 14px #d4dee3;
+}
+
+.bg{
+    background-color:#f7f8fc ;
+}
+.buton{
+    margin-top: -30px;
+}
+button:hover{
+    background-color:rgb(148, 224, 148);
+}
+.main-img{
+    width: 500px;
+}
+
+
+@media screen and (min-width:426px) and (max-width:769px){
+    .main-img{
+        width: 350px;
+        margin: auto;
+    }
+   
+}
+
+@media (max-width:426px){
+    .main-img{
+        width: 250px;
+        margin: auto;
+    }
+    
+}

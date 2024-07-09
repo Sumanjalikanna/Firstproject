@@ -1,0 +1,9 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.out-line-card:hover{
+    border: none;
+    box-shadow: 0 4px  14px #d4dee3;
+}
